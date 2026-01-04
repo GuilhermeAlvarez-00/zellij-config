@@ -1,0 +1,19 @@
+layout {
+  pane command="nvim" borderless=true {
+    args "."
+  }
+
+  floating_panes {
+    pane command="npm" {
+      args "run" "dev"
+      x 0
+      y "100%"
+      width "100%"
+      height "30%"
+      start_suspended true
+    }
+  }
+  pane size=1 borderless=true {
+    plugin location="zellij:tab-bar"
+  }
+}
