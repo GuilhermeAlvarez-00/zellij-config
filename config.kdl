@@ -106,7 +106,7 @@ keybinds clear-defaults=true {
                    move_to_focused_tab true
                    cwd "/"
                    root_dirs "/home/gbarbz/Documents/vereda;/home/gbarbz/Documents/personal"
-                   session_layout "myCustomLayout"
+                   session_layout "code_vertical"
                }; SwitchToMode "Locked";
            }
         bind "a" {
@@ -423,7 +423,7 @@ web_client {
 //   - true (default)
 //   - false
 // 
-// session_serialization false
+session_serialization false
  
 // Whether pane viewports are serialized along with the session, default is false
 // Options:
